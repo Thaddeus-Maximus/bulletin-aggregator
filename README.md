@@ -1,34 +1,13 @@
 # Parish Bulletin Aggregator
 
 > If you want to know what's going on, the ground truth is the bulletin.
+>  - someone
 
-# Parishes
-- HSPHT
-- EPI
-- SMB
-- MHE
-- OLOP
+masstimes.org is broken. For one, the interface is not as slick as it could be to convey the necessary information. For another, the concept is busted: it relies on volunteers volunteering data which will never capture holy days, cancellations, and other deviations.
 
-# Churches
+The most reliable source of information is the bulletin. So, let's grab data from all the bulletins in the area, and publish that!
 
-### Core
-- <span style="color:#63593c">HSP</span>
-- <span style="color:#40a1ff">HT</span>
-- <span style="color:#f8c325">EPI</span>
-- <span style="color:#0635b9">SMB</span>
-- <span style="color:#00bf2f">MERNA</span>
-- <span style="color:#bf0003">SMD</span>
-
-### Fringes
-- <span style="color:#8fff1e">SPW</span>
-- <span style="color:#422cf1">SJC</span>
-- <span style="color:#db25f8">SHFC</span>
-- <span style="color:#a79358">SME</span>
-- <span style="color:#ff00c3">ATL</span>
-- <span style="color:#5448b7">LINC</span>
-- <span style="color:#dff3ff">LEX</span>
-- <span style="color:#b8b8b8">HOP</span>
-- <span style="color:#454545">DEL</span>
+Thank goodness for LLMs which allow us to scrape through unstructured PDFs!
 
 # Workflow
 
@@ -159,3 +138,34 @@ All state is stored in a single JSON file. Top-level structure:
 ## Archiving past events vs. deletion
 
 **Chose deletion.** Past events are removed from the store on the day they occur. The data store is in git, so any prior state is recoverable from history. The `bulletin_url` proof links also point back to the original source PDFs for reference.
+
+
+
+
+# Parishes
+- HSPHT
+- EPI
+- SMB
+- MHE
+- OLOP
+
+# Churches
+
+### Core
+- <span style="color:#63593c">HSP</span>
+- <span style="color:#40a1ff">HT</span>
+- <span style="color:#f8c325">EPI</span>
+- <span style="color:#0635b9">SMB</span>
+- <span style="color:#00bf2f">MERNA</span>
+- <span style="color:#bf0003">SMD</span>
+
+### Fringes
+- <span style="color:#8fff1e">SPW</span>
+- <span style="color:#422cf1">SJC</span>
+- <span style="color:#db25f8">SHFC</span>
+- <span style="color:#a79358">SME</span>
+- <span style="color:#ff00c3">ATL</span>
+- <span style="color:#5448b7">LINC</span>
+- <span style="color:#dff3ff">LEX</span>
+- <span style="color:#b8b8b8">HOP</span>
+- <span style="color:#454545">DEL</span>
