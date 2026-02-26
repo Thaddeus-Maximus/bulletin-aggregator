@@ -1,0 +1,386 @@
+[
+  {
+    "type": "mass",
+    "location": "Epiphany Catholic Church",
+    "datetime": "2026-01-04T07:30:00",
+    "time_desc": "7:30am",
+    "page": 3,
+    "source": "epi",
+    "bulletin_url": "https://container.parishesonline.com/bulletins/01/0382/20260104B.pdf",
+    "id": null
+  },
+  {
+    "type": "mass",
+    "location": "Epiphany Catholic Church",
+    "datetime": "2026-01-04T09:00:00",
+    "time_desc": "9:00am",
+    "page": 3,
+    "source": "epi",
+    "bulletin_url": "https://container.parishesonline.com/bulletins/01/0382/20260104B.pdf",
+    "id": null
+  },
+  {
+    "type": "mass",
+    "location": "Epiphany Catholic Church",
+    "datetime": "2026-01-04T11:00:00",
+    "time_desc": "11am",
+    "page": 3,
+    "source": "epi",
+    "bulletin_url": "https://container.parishesonline.com/bulletins/01/0382/20260104B.pdf",
+    "id": null
+  },
+  {
+    "type": "mass",
+    "location": "Epiphany Catholic Church",
+    "datetime": "2026-01-04T17:30:00",
+    "time_desc": "5:30pm",
+    "page": 3,
+    "source": "epi",
+    "bulletin_url": "https://container.parishesonline.com/bulletins/01/0382/20260104B.pdf",
+    "id": null
+  },
+  {
+    "type": "mass",
+    "location": "Epiphany Catholic Church",
+    "datetime": "2026-01-05T07:00:00",
+    "time_desc": "7:00am",
+    "page": 3,
+    "source": "epi",
+    "bulletin_url": "https://container.parishesonline.com/bulletins/01/0382/20260104B.pdf",
+    "id": null
+  },
+  {
+    "type": "mass",
+    "location": "Epiphany Catholic Church",
+    "datetime": "2026-01-05T17:30:00",
+    "time_desc": "5:30pm",
+    "page": 3,
+    "source": "epi",
+    "bulletin_url": "https://container.parishesonline.com/bulletins/01/0382/20260104B.pdf",
+    "id": null
+  },
+  {
+    "type": "mass",
+    "location": "Epiphany Catholic Church",
+    "datetime": "2026-01-06T07:00:00",
+    "time_desc": "7:00am",
+    "page": 3,
+    "source": "epi",
+    "bulletin_url": "https://container.parishesonline.com/bulletins/01/0382/20260104B.pdf",
+    "id": null
+  },
+  {
+    "type": "mass",
+    "location": "Epiphany Catholic Church",
+    "datetime": "2026-01-06T17:30:00",
+    "time_desc": "5:30pm",
+    "page": 3,
+    "source": "epi",
+    "bulletin_url": "https://container.parishesonline.com/bulletins/01/0382/20260104B.pdf",
+    "id": null
+  },
+  {
+    "type": "mass",
+    "location": "Epiphany Catholic Church",
+    "datetime": "2026-01-07T07:00:00",
+    "time_desc": "7:00am",
+    "page": 3,
+    "source": "epi",
+    "bulletin_url": "https://container.parishesonline.com/bulletins/01/0382/20260104B.pdf",
+    "id": null
+  },
+  {
+    "type": "mass",
+    "location": "Epiphany Catholic Church",
+    "datetime": "2026-01-07T17:30:00",
+    "time_desc": "5:30pm",
+    "page": 3,
+    "source": "epi",
+    "bulletin_url": "https://container.parishesonline.com/bulletins/01/0382/20260104B.pdf",
+    "id": null
+  },
+  {
+    "type": "mass",
+    "location": "Epiphany Catholic Church",
+    "datetime": "2026-01-08T07:30:00",
+    "time_desc": "7:30am",
+    "page": 3,
+    "source": "epi",
+    "bulletin_url": "https://container.parishesonline.com/bulletins/01/0382/20260104B.pdf",
+    "id": null
+  },
+  {
+    "type": "mass",
+    "location": "Epiphany Catholic Church",
+    "datetime": "2026-01-08T09:00:00",
+    "time_desc": "9:00am",
+    "page": 3,
+    "source": "epi",
+    "bulletin_url": "https://container.parishesonline.com/bulletins/01/0382/20260104B.pdf",
+    "id": null
+  },
+  {
+    "type": "mass",
+    "location": "Epiphany Catholic Church",
+    "datetime": "2026-01-09T07:00:00",
+    "time_desc": "7:00am",
+    "page": 3,
+    "source": "epi",
+    "bulletin_url": "https://container.parishesonline.com/bulletins/01/0382/20260104B.pdf",
+    "id": null
+  },
+  {
+    "type": "mass",
+    "location": "Epiphany Catholic Church",
+    "datetime": "2026-01-09T17:30:00",
+    "time_desc": "5:30pm",
+    "page": 3,
+    "source": "epi",
+    "bulletin_url": "https://container.parishesonline.com/bulletins/01/0382/20260104B.pdf",
+    "id": null
+  },
+  {
+    "type": "mass",
+    "location": "Epiphany Catholic Church",
+    "datetime": "2026-01-10T07:30:00",
+    "time_desc": "7:30am",
+    "page": 3,
+    "source": "epi",
+    "bulletin_url": "https://container.parishesonline.com/bulletins/01/0382/20260104B.pdf",
+    "id": null
+  },
+  {
+    "type": "mass",
+    "location": "Epiphany Catholic Church",
+    "datetime": "2026-01-10T16:00:00",
+    "time_desc": "4pm",
+    "page": 3,
+    "source": "epi",
+    "bulletin_url": "https://container.parishesonline.com/bulletins/01/0382/20260104B.pdf",
+    "id": null
+  },
+  {
+    "type": "confession",
+    "location": "Epiphany Catholic Church",
+    "datetime": "2026-01-04T07:00:00",
+    "time_desc": "SUN 7am",
+    "page": 3,
+    "source": "epi",
+    "bulletin_url": "https://container.parishesonline.com/bulletins/01/0382/20260104B.pdf",
+    "id": null
+  },
+  {
+    "type": "confession",
+    "location": "Epiphany Catholic Church",
+    "datetime": "2026-01-04T08:30:00",
+    "time_desc": "SUN 8:30am",
+    "page": 3,
+    "source": "epi",
+    "bulletin_url": "https://container.parishesonline.com/bulletins/01/0382/20260104B.pdf",
+    "id": null
+  },
+  {
+    "type": "confession",
+    "location": "Epiphany Catholic Church",
+    "datetime": "2026-01-04T10:30:00",
+    "time_desc": "SUN 10:30am",
+    "page": 3,
+    "source": "epi",
+    "bulletin_url": "https://container.parishesonline.com/bulletins/01/0382/20260104B.pdf",
+    "id": null
+  },
+  {
+    "type": "confession",
+    "location": "Epiphany Catholic Church",
+    "datetime": "2026-01-05T07:30:00",
+    "time_desc": "M-F 7:30am",
+    "page": 3,
+    "source": "epi",
+    "bulletin_url": "https://container.parishesonline.com/bulletins/01/0382/20260104B.pdf",
+    "id": null
+  },
+  {
+    "type": "confession",
+    "location": "Epiphany Catholic Church",
+    "datetime": "2026-01-10T07:00:00",
+    "time_desc": "SAT 7am",
+    "page": 3,
+    "source": "epi",
+    "bulletin_url": "https://container.parishesonline.com/bulletins/01/0382/20260104B.pdf",
+    "id": null
+  },
+  {
+    "type": "confession",
+    "location": "Epiphany Catholic Church",
+    "datetime": "2026-01-10T15:00:00",
+    "time_desc": "SAT 3pm",
+    "page": 3,
+    "source": "epi",
+    "bulletin_url": "https://container.parishesonline.com/bulletins/01/0382/20260104B.pdf",
+    "id": null
+  },
+  {
+    "type": "adoration",
+    "location": "Epiphany Catholic Church",
+    "datetime": "2026-01-06T18:00:00",
+    "time_desc": "Tuesdays at 6pm",
+    "page": 3,
+    "source": "epi",
+    "bulletin_url": "https://container.parishesonline.com/bulletins/01/0382/20260104B.pdf",
+    "id": null
+  },
+  {
+    "type": "misc",
+    "location": "Epiphany Catholic Church",
+    "datetime": "2026-01-04T08:30:00",
+    "time_desc": "After 7:30 and 9am Masses",
+    "details": "Coffee and Donuts hosted by Hospitality Committee; also Jan 18",
+    "page": 6,
+    "source": "epi",
+    "bulletin_url": "https://container.parishesonline.com/bulletins/01/0382/20260104B.pdf",
+    "id": null
+  },
+  {
+    "type": "misc",
+    "location": "Epiphany Catholic Church",
+    "datetime": "2026-01-08T08:00:00",
+    "time_desc": "Thursdays 8-9:30am",
+    "details": "Moms of Littles Group; free babysitting; weekly recurring",
+    "page": 3,
+    "source": "epi",
+    "bulletin_url": "https://container.parishesonline.com/bulletins/01/0382/20260104B.pdf",
+    "id": null
+  },
+  {
+    "type": "misc",
+    "location": "Epiphany Catholic Church",
+    "datetime": "2026-01-10T10:00:00",
+    "time_desc": "10am",
+    "details": "Volunteers needed to remove Christmas decorations",
+    "page": 8,
+    "source": "epi",
+    "bulletin_url": "https://container.parishesonline.com/bulletins/01/0382/20260104B.pdf",
+    "id": null
+  },
+  {
+    "type": "misc",
+    "location": "Epiphany Catholic Church Parish Hall",
+    "datetime": "2026-01-11T08:30:00",
+    "time_desc": "After the 7:30 AM and 9:00 AM Masses",
+    "details": "Knights of Columbus Pancake Breakfast (rescheduled); sponsored by Jim Merna and Epiphany KofC",
+    "page": 9,
+    "source": "epi",
+    "bulletin_url": "https://container.parishesonline.com/bulletins/01/0382/20260104B.pdf",
+    "id": null
+  },
+  {
+    "type": "misc",
+    "location": "Epiphany Cenacle Room, 1000 E. College",
+    "datetime": "2026-01-12T18:30:00",
+    "time_desc": "6:30-8:00pm",
+    "details": "Redbird Grief Ministries group for those who have lost a child; 10-week series Jan 12\u00e2\u20ac\u201cMar 16, Monday evenings",
+    "page": 5,
+    "source": "epi",
+    "bulletin_url": "https://container.parishesonline.com/bulletins/01/0382/20260104B.pdf",
+    "id": null
+  },
+  {
+    "type": "misc",
+    "location": "Midwest Food Bank",
+    "datetime": "2026-01-12T18:00:00",
+    "time_desc": "6-8 p.m.",
+    "details": "Volunteer to sort/pack food items; sponsored by Epiphany Faith and Works Ministry",
+    "page": 6,
+    "source": "epi",
+    "bulletin_url": "https://container.parishesonline.com/bulletins/01/0382/20260104B.pdf",
+    "id": null
+  },
+  {
+    "type": "misc",
+    "location": "Casper Brewing Company, 3807 Ballybunion Road, Bloomington",
+    "datetime": "2026-01-18T18:30:00",
+    "time_desc": "6:30-8:30 PM",
+    "details": "Fatherhood on Tap \u00e2\u20ac\u201d monthly Sunday evening men's gathering; Jan 18 speakers Francesco Vetri and Kel Krenz",
+    "page": 6,
+    "source": "epi",
+    "bulletin_url": "https://container.parishesonline.com/bulletins/01/0382/20260104B.pdf",
+    "id": null
+  },
+  {
+    "type": "misc",
+    "location": "Epiphany Parish Hall",
+    "datetime": "2026-01-24T17:00:00",
+    "time_desc": "Doors open at 5:00; Games at 6:00",
+    "details": "Epiphany Trivia Night; must be 21+; $120/table of 8 through Jan 9",
+    "page": 7,
+    "source": "epi",
+    "bulletin_url": "https://container.parishesonline.com/bulletins/01/0382/20260104B.pdf",
+    "id": null
+  },
+  {
+    "type": "misc",
+    "location": "Epiphany Catholic School",
+    "datetime": "2026-01-25T12:00:00",
+    "time_desc": "12:00-1:30 PM",
+    "details": "Epiphany Catholic School Open House, Preschool\u00e2\u20ac\u201c8th Grade",
+    "page": 9,
+    "source": "epi",
+    "bulletin_url": "https://container.parishesonline.com/bulletins/01/0382/20260104B.pdf",
+    "id": null
+  },
+  {
+    "type": "misc",
+    "location": "Epiphany Parish Hall",
+    "datetime": "2026-01-27T09:00:00",
+    "time_desc": "9am",
+    "details": "Walking With Purpose Connect Coffee \u00e2\u20ac\u201d monthly women's event; also 1pm and 6:30pm same day",
+    "page": 6,
+    "source": "epi",
+    "bulletin_url": "https://container.parishesonline.com/bulletins/01/0382/20260104B.pdf",
+    "id": null
+  },
+  {
+    "type": "misc",
+    "location": "Epiphany Parish Hall",
+    "datetime": "2026-01-27T13:00:00",
+    "time_desc": "1pm",
+    "details": "Walking With Purpose Connect Coffee \u00e2\u20ac\u201d monthly women's event",
+    "page": 6,
+    "source": "epi",
+    "bulletin_url": "https://container.parishesonline.com/bulletins/01/0382/20260104B.pdf",
+    "id": null
+  },
+  {
+    "type": "misc",
+    "location": "Epiphany Parish Hall",
+    "datetime": "2026-01-27T18:30:00",
+    "time_desc": "6:30pm",
+    "details": "Walking With Purpose Connect Coffee \u00e2\u20ac\u201d monthly women's event",
+    "page": 6,
+    "source": "epi",
+    "bulletin_url": "https://container.parishesonline.com/bulletins/01/0382/20260104B.pdf",
+    "id": null
+  },
+  {
+    "type": "misc",
+    "location": "DESTIHL Brew Hall",
+    "datetime": "2026-02-12T17:30:00",
+    "time_desc": "5:30-8:30 PM",
+    "details": "Faith in Action Mardi Gras Bingo Bonanza; $65/ticket or $425/table of 8",
+    "page": 9,
+    "source": "epi",
+    "bulletin_url": "https://container.parishesonline.com/bulletins/01/0382/20260104B.pdf",
+    "id": null
+  },
+  {
+    "type": "misc",
+    "location": "Epiphany Catholic Church",
+    "datetime": "2026-02-26T08:00:00",
+    "time_desc": "February 26\u00e2\u20ac\u201cMarch 1, 2026",
+    "details": "ACTS Men's Retreat",
+    "page": 10,
+    "source": "epi",
+    "bulletin_url": "https://container.parishesonline.com/bulletins/01/0382/20260104B.pdf",
+    "id": null
+  }
+]

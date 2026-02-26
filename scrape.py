@@ -92,6 +92,7 @@ def record_bulletin(store: dict, source_id: str, bulletin_date: date, url: str, 
         "date": bulletin_date.isoformat(),
         "url": url,
         "local_path": str(local_path),
+        "processed": False,
     })
 
 

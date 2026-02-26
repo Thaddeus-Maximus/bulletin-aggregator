@@ -20,7 +20,8 @@
       "source": "epi",
       "date": "2026-01-04",
       "url": "https://container.parishesonline.com/bulletins/01/0382/20260104B.pdf",
-      "local_path": "bulletins\\epi\\2026-01-04.pdf"
+      "local_path": "bulletins\\epi\\2026-01-04.pdf",
+      "processed": true
     },
     {
       "source": "epi",

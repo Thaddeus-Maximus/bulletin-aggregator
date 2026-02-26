@@ -2,6 +2,34 @@
 
 > If you want to know what's going on, the ground truth is the bulletin.
 
+# Parishes
+- HSPHT
+- EPI
+- SMB
+- MHE
+- OLOP
+
+# Churches
+
+### Core
+- <span style="color:#0f902f">HSP</span>
+- <span style="color:#1e90ff">HT</span>
+- <span style="color:#f8c325">EPI</span>
+- <span style="color:#255cf8">SMB</span>
+- <span style="color:#60ffc2">MERNA</span>
+- <span style="color:#ff8082">SMD</span>
+
+### Fringes
+- <span style="color:#8fff1e">SPW</span>
+- <span style="color:#422cf1">SJC</span>
+- <span style="color:#db25f8">SHFC</span>
+- <span style="color:#a79358">SME</span>
+- <span style="color:#ff00c3">ATL</span>
+- <span style="color:#5448b7">LINC</span>
+- <span style="color:#dff3ff">LEX</span>
+- <span style="color:#b8b8b8">HOP</span>
+- <span style="color:#454545">DEL</span>
+
 # Workflow
 
 ## 1. Scrape PDFs
@@ -28,6 +56,7 @@ PDFs are fed into Claude (via the CLI or GUI) with instructions to generate a st
 - `datetime` (a singular machine-parsable datetime used to place it on the calendar)
 - `time_desc` (a human-readable description of the time, e.g. `February 6, 6–9 PM`; some events may have irregular descriptions)
 - `details` (the details of the event as listed in the bulletin; mass intentions or other notes go here)
+- `source` (the parish code that was scraped, e.g. `hsp` or `epi`)
 - `bulletin_url` (the URL of the bulletin this was found in)
 - `bulletin_page` (the page number of the bulletin this was found in, as an integer)
 - `id` (not populated at this stage; will be assigned during the merge step)
