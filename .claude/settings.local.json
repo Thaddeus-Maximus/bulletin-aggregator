@@ -1,0 +1,43 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/120.0.0.0 Safari/537.36\" \"https://parishesonline.com/organization/epiphany-church\")",
+      "Bash(curl -s -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/120.0.0.0 Safari/537.36\" \"https://discovermass.com/church/st-patrick-bloomington-il/#bulletins\")",
+      "Bash(curl -s -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/120.0.0.0 Safari/537.36\" \"https://discovermass.com/church/st-patrick-church-of-merna-bloomington-il/#bulletins\")",
+      "Bash(curl -s -A \"Mozilla/5.0 \\(Windows NT 10.0; Win64; x64\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/120.0.0.0 Safari/537.36\" \"https://discovermass.com/church/st-mary-bloomington-il/#bulletins\")",
+      "Bash(curl -s \"https://parishesonline.com/organization/epiphany-church\")",
+      "Bash(curl -s -A \"Mozilla/5.0\" \"https://parishesonline.com/api/organizations/epiphany-church\")",
+      "Bash(curl -s -A \"Mozilla/5.0\" \"https://parishesonline.com/api/bulletins?org=epiphany-church\")",
+      "Bash(curl -s -A \"Mozilla/5.0\" \"https://parishesonline.com/api/church/epiphany-church\")",
+      "Bash(curl -s \"https://parishesonline.com/static/js/main.dcf60ce2.js\")",
+      "Bash(curl -s \"https://parishesonline.com/static/js/3126.7150c116.js\")",
+      "Bash(__NEW_LINE_2d6664266dddbd75__ echo \"=== main.js: /api/ paths ===\")",
+      "Bash(__NEW_LINE_e7be1a71902b1020__ echo \"=== main.js: parishesonline refs ===\")",
+      "Bash(__NEW_LINE_164b2baab78b354c__ echo \"=== main.js: any https:// base URL ===\")",
+      "Bash(__NEW_LINE_cf760363aa9afd9f__ echo \"=== chunk3126: bulletin refs ===\")",
+      "Bash(__NEW_LINE_1aa9bb8daedc5f1e__ echo \"=== chunk3126: https:// URLs ===\")",
+      "Bash(__NEW_LINE_fbe123ae431299f9__ echo \"=== chunk3126: parishesonline refs ===\")",
+      "Bash(python3 -:*)",
+      "Bash(python3.exe --version)",
+      "Bash(py --version)",
+      "Bash(node --version)",
+      "Bash(python -c \":*)",
+      "Bash(wc -c \"C:/data/git/bulletin-aggregator/tmp_main.js\" \"C:/data/git/bulletin-aggregator/tmp_chunk.js\")",
+      "Bash(python -W ignore \"C:/data/git/bulletin-aggregator/analyze.py\")",
+      "Bash(\"C:/data/git/bulletin-aggregator/analyze.py\":*)",
+      "Bash(python \"C:/data/git/bulletin-aggregator/analyze.py\")",
+      "Bash(\"C:/data/git/bulletin-aggregator/analyze2.py\":*)",
+      "Bash(python \"C:/data/git/bulletin-aggregator/analyze2.py\")",
+      "Bash(\"C:/data/git/bulletin-aggregator/analyze3.py\":*)",
+      "Bash(python \"C:/data/git/bulletin-aggregator/analyze3.py\")",
+      "Bash(\"C:/data/git/bulletin-aggregator/analyze4.py\":*)",
+      "Bash(python \"C:/data/git/bulletin-aggregator/analyze4.py\")",
+      "Bash(\"C:/data/git/bulletin-aggregator/analyze5.py\":*)",
+      "Bash(python \"C:/data/git/bulletin-aggregator/analyze5.py\")",
+      "Bash(\"C:/data/git/bulletin-aggregator/analyze6.py\":*)",
+      "Bash(python \"C:/data/git/bulletin-aggregator/analyze6.py\")",
+      "Bash(SALESFORCE_ID=\"0018000000QbyybAAB\")",
+      "Bash(curl -s \"https://f2141mdwk2.execute-api.us-east-1.amazonaws.com/prod/organizations/$SALESFORCE_ID/publications?limit=9&type=Church\")"
+    ]
+  }
+}

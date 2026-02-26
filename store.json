@@ -1,0 +1,260 @@
+{
+  "sources": {
+    "epi": {
+      "last_collected": "2026-02-22"
+    },
+    "spm": {
+      "last_collected": "2026-02-22"
+    },
+    "smb": {
+      "last_collected": "2026-02-22"
+    },
+    "hspht": {
+      "last_collected": "2026-02-22"
+    }
+  },
+  "next_id": 1,
+  "events": [],
+  "bulletins": [
+    {
+      "source": "epi",
+      "date": "2026-01-04",
+      "url": "https://container.parishesonline.com/bulletins/01/0382/20260104B.pdf",
+      "local_path": "bulletins\\epi\\2026-01-04.pdf"
+    },
+    {
+      "source": "epi",
+      "date": "2026-01-11",
+      "url": "https://container.parishesonline.com/bulletins/01/0382/20260111B.pdf",
+      "local_path": "bulletins\\epi\\2026-01-11.pdf"
+    },
+    {
+      "source": "epi",
+      "date": "2026-01-18",
+      "url": "https://container.parishesonline.com/bulletins/01/0382/20260118B.pdf",
+      "local_path": "bulletins\\epi\\2026-01-18.pdf"
+    },
+    {
+      "source": "epi",
+      "date": "2026-01-25",
+      "url": "https://container.parishesonline.com/bulletins/01/0382/20260125B.pdf",
+      "local_path": "bulletins\\epi\\2026-01-25.pdf"
+    },
+    {
+      "source": "epi",
+      "date": "2026-02-01",
+      "url": "https://container.parishesonline.com/bulletins/01/0382/20260201B.pdf",
+      "local_path": "bulletins\\epi\\2026-02-01.pdf"
+    },
+    {
+      "source": "epi",
+      "date": "2026-02-08",
+      "url": "https://container.parishesonline.com/bulletins/01/0382/20260208B.pdf",
+      "local_path": "bulletins\\epi\\2026-02-08.pdf"
+    },
+    {
+      "source": "epi",
+      "date": "2026-02-15",
+      "url": "https://container.parishesonline.com/bulletins/01/0382/20260215B.pdf",
+      "local_path": "bulletins\\epi\\2026-02-15.pdf"
+    },
+    {
+      "source": "epi",
+      "date": "2026-02-22",
+      "url": "https://container.parishesonline.com/bulletins/01/0382/20260222B.pdf",
+      "local_path": "bulletins\\epi\\2026-02-22.pdf"
+    },
+    {
+      "source": "hsp",
+      "date": "2026-02-22",
+      "url": "https://bulletins.discovermass.com/download.php?bulletin=AJn4bFbfl6PXK2OwQWhv8lMt0E4u1yABYuR8FhwSyxcivh8H1ANtQQSEv6RM0UJLLmnl36vVYo%2B745pUxPHAPWGBes8TXA8qqkYgGNbNEJE%3D",
+      "local_path": "bulletins\\hsp\\2026-02-22.pdf"
+    },
+    {
+      "source": "hsp",
+      "date": "2026-02-15",
+      "url": "https://bulletins.discovermass.com/download.php?bulletin=AJn4bFbfl6PXK2OwQWhv8iQ3nI%2BAwUqnI6oyYwFfTwen59JwewgBWsgg1MQMbrfNUf7%2FlEfNMJj6ReuzZPEhAMe7s73yoh0h7qDAaQI45OE%3D",
+      "local_path": "bulletins\\hsp\\2026-02-15.pdf"
+    },
+    {
+      "source": "hsp",
+      "date": "2026-02-08",
+      "url": "https://bulletins.discovermass.com/download.php?bulletin=AJn4bFbfl6PXK2OwQWhv8liouw6%2BBtwzmUCOUF7t5UVWV3ddsvn4bRTahqKETq%2FnoZBdZjwLbjqev8eksC9f5eJ%2BOiQebPELGlnzauDoWM4%3D",
+      "local_path": "bulletins\\hsp\\2026-02-08.pdf"
+    },
+    {
+      "source": "hsp",
+      "date": "2026-02-01",
+      "url": "https://bulletins.discovermass.com/download.php?bulletin=AJn4bFbfl6PXK2OwQWhv8iSPwY1LLdqm4rrltOB1XKhoXx7PCZgqhXzhWXe9bAFyvoHMzqLKElQX%2F0sSZewFixlX8yjA0DpHsNZmmFNJOG4%3D",
+      "local_path": "bulletins\\hsp\\2026-02-01.pdf"
+    },
+    {
+      "source": "hsp",
+      "date": "2026-01-25",
+      "url": "https://bulletins.discovermass.com/download.php?bulletin=AJn4bFbfl6PXK2OwQWhv8uO6vCFwvY1q3vp8gLzm0bXvmsdvAFsaAuexTSLNFG6z2BdIwPkp%2Fuhnihv8VzrsFKz8ACIpE46YHbf1%2BgbKOyY%3D",
+      "local_path": "bulletins\\hsp\\2026-01-25.pdf"
+    },
+    {
+      "source": "hsp",
+      "date": "2026-01-18",
+      "url": "https://bulletins.discovermass.com/download.php?bulletin=AJn4bFbfl6PXK2OwQWhv8qZsXAMXDO7NOqg03vdQLqfMERmUZX%2BLo9Ym9WONH%2Bx9bUR%2BGAw3XbHUUqLOM6Pq7e2fqTxUaDyltEc93EGf43s%3D",
+      "local_path": "bulletins\\hsp\\2026-01-18.pdf"
+    },
+    {
+      "source": "hsp",
+      "date": "2026-01-11",
+      "url": "https://bulletins.discovermass.com/download.php?bulletin=AJn4bFbfl6PXK2OwQWhv8u%2FCXn3eLh%2FVJycgaNx5bvS7rKLJMDRVx84o4zCBzZWGQw0M6FRCZv3K3fyI6S75Wwd9J3iZB1zLOd3YFru4zHM%3D",
+      "local_path": "bulletins\\hsp\\2026-01-11.pdf"
+    },
+    {
+      "source": "hsp",
+      "date": "2026-01-04",
+      "url": "https://bulletins.discovermass.com/download.php?bulletin=AJn4bFbfl6PXK2OwQWhv8j2ERM61POJoUXx9K8AAc%2Bzy6iMpTmiuiqzDvm3z3QG4UMnUUWm3CieYHTIL9e4ZDPFBQeGW4EL6IaG%2Fk4nm%2BYk%3D",
+      "local_path": "bulletins\\hsp\\2026-01-04.pdf"
+    },
+    {
+      "source": "spm",
+      "date": "2026-02-22",
+      "url": "https://bulletins.discovermass.com/download.php?bulletin=i3QzwNpvQ%2BU8NXLqhuQbTbKMreMq%2Fdqn9u1IMAUlH4tLd%2BzNcJNQLBJBwHo6vhZmtbHYZEN41gpodw4A573PKuxxZWiyk67vbxAIhAQF%2Bqs%3D",
+      "local_path": "bulletins\\spm\\2026-02-22.pdf"
+    },
+    {
+      "source": "spm",
+      "date": "2026-02-15",
+      "url": "https://bulletins.discovermass.com/download.php?bulletin=i3QzwNpvQ%2BU8NXLqhuQbTWD9l9fZbEDXV5qsILBZxmnSHDvFTWOIbbX8xnUefcLQE6f%2BBJA1gGMDGnPoOSDDz4crmFUrch6GHpjGpOA%2BLNo%3D",
+      "local_path": "bulletins\\spm\\2026-02-15.pdf"
+    },
+    {
+      "source": "spm",
+      "date": "2026-02-08",
+      "url": "https://bulletins.discovermass.com/download.php?bulletin=i3QzwNpvQ%2BU8NXLqhuQbTQHyrW5mT2V%2BEkONeMujpI%2F8RXGA54sHGoTE7V104wdkOAh95LbcCLssGROIBzQ%2BeDWAF5vfrclzddhTDKshaxg%3D",
+      "local_path": "bulletins\\spm\\2026-02-08.pdf"
+    },
+    {
+      "source": "spm",
+      "date": "2026-02-01",
+      "url": "https://bulletins.discovermass.com/download.php?bulletin=i3QzwNpvQ%2BU8NXLqhuQbTWjdMSDa7GC%2F0gKcVzUPvkROZGuRzArkLTcgXaN%2BoQy4L%2B0u%2B2QEZY86VSz1PskzPAdwMdoRZ2RWt1tx3%2BtzPo0%3D",
+      "local_path": "bulletins\\spm\\2026-02-01.pdf"
+    },
+    {
+      "source": "spm",
+      "date": "2026-01-25",
+      "url": "https://bulletins.discovermass.com/download.php?bulletin=i3QzwNpvQ%2BU8NXLqhuQbTR8ckttdHWhiAoUNHGJiwQLvNvpEzn17Z9d3f62hsQQHDbcuazAc9nLesXDDK8VaSoFEY4LbRQgM2J8cZ4hwEE4%3D",
+      "local_path": "bulletins\\spm\\2026-01-25.pdf"
+    },
+    {
+      "source": "spm",
+      "date": "2026-01-18",
+      "url": "https://bulletins.discovermass.com/download.php?bulletin=i3QzwNpvQ%2BU8NXLqhuQbTffABgxODmZl%2FEmthWUT7PMEAA0ltK7W%2FzFNaBJ9uR6G3LuQTgKsLZhmgkiTUU2SZ368iZLM7boF%2F6r%2FQv9rUnk%3D",
+      "local_path": "bulletins\\spm\\2026-01-18.pdf"
+    },
+    {
+      "source": "spm",
+      "date": "2026-01-11",
+      "url": "https://bulletins.discovermass.com/download.php?bulletin=i3QzwNpvQ%2BU8NXLqhuQbTXrzDcyqLFEeksRMtVs0GfIHTsSXV5kgfYokkG7EeKxVbE1fEq7V5CIXXH6P5FW9PbCVxqEqZkJUA9%2FGpaordsQ%3D",
+      "local_path": "bulletins\\spm\\2026-01-11.pdf"
+    },
+    {
+      "source": "spm",
+      "date": "2026-01-04",
+      "url": "https://bulletins.discovermass.com/download.php?bulletin=i3QzwNpvQ%2BU8NXLqhuQbTfrqEanaXPewNwiXDKKmWPTjqifhEl9qGh%2FwKbnO1cp3xeijVq%2BtQudSjIyt4BEkdaFaoh0m03smmcrUCCjPROc%3D",
+      "local_path": "bulletins\\spm\\2026-01-04.pdf"
+    },
+    {
+      "source": "smb",
+      "date": "2026-02-22",
+      "url": "https://bulletins.discovermass.com/download.php?bulletin=5JRzCCQNTPtl2JGw6n9DsYgnI9dTetiJ1CRfvQAXaQIAO5nC22fY2KDg5c204ZYUapD9fXWGlHbKn363VtmWU%2B0Sz8KJS1uh2tsTkS9pIDU%3D",
+      "local_path": "bulletins\\smb\\2026-02-22.pdf"
+    },
+    {
+      "source": "smb",
+      "date": "2026-02-15",
+      "url": "https://bulletins.discovermass.com/download.php?bulletin=5JRzCCQNTPtl2JGw6n9DsVB%2B1YyymdficjQf8RVfygbq0uyGEIU48PM5%2FzofkifRPDfQYtIrmMlqcOJJth%2Bhwvg3dxJc5kUvFUOCVSNyUB0%3D",
+      "local_path": "bulletins\\smb\\2026-02-15.pdf"
+    },
+    {
+      "source": "smb",
+      "date": "2026-02-08",
+      "url": "https://bulletins.discovermass.com/download.php?bulletin=5JRzCCQNTPtl2JGw6n9DsakLkMMnUBjiV2bFGoIWdqdv0Zir1hAxUphlm3t%2F7TL4eDoW28dUV2z6GYa4ktoajXtke7hHCqhnS%2FS8%2FzIzP5A%3D",
+      "local_path": "bulletins\\smb\\2026-02-08.pdf"
+    },
+    {
+      "source": "smb",
+      "date": "2026-02-01",
+      "url": "https://bulletins.discovermass.com/download.php?bulletin=5JRzCCQNTPtl2JGw6n9DsW3t93SwGeYOkToNhyfXPebh6%2Fohgmvjuouoj2UJrGJ45%2Bh83aGg0f1fuHwFGQxzYwsZVJFW9YgE7OSlxsCTYg4%3D",
+      "local_path": "bulletins\\smb\\2026-02-01.pdf"
+    },
+    {
+      "source": "smb",
+      "date": "2026-01-25",
+      "url": "https://bulletins.discovermass.com/download.php?bulletin=5JRzCCQNTPtl2JGw6n9DsTyf78NitaqEfcRizG3QEUY294mdhByyiNKqpXmDYx%2Fi%2BhPeXvzFq21YSMZFPgQjXjeE1c9OtGk4a0ByZwkGYJs%3D",
+      "local_path": "bulletins\\smb\\2026-01-25.pdf"
+    },
+    {
+      "source": "smb",
+      "date": "2026-01-18",
+      "url": "https://bulletins.discovermass.com/download.php?bulletin=5JRzCCQNTPtl2JGw6n9DscUtIRfZ2j9Fo06XufaOQJP0q88WVGlZ74W8gbt%2BZseEJxS%2FiN7pPmtWoNuLpCHlw0PnpXU4sYN7l20pggLCiwg%3D",
+      "local_path": "bulletins\\smb\\2026-01-18.pdf"
+    },
+    {
+      "source": "smb",
+      "date": "2026-01-11",
+      "url": "https://bulletins.discovermass.com/download.php?bulletin=5JRzCCQNTPtl2JGw6n9DsVaIZUm33xT6ljCdzu5YM%2FeU4MxA3Yf3yYWmwGWdHA%2Fw9wE3hQiyzzTxQ266JAVvirwugJZW21JG%2BGrcKzu3WDA%3D",
+      "local_path": "bulletins\\smb\\2026-01-11.pdf"
+    },
+    {
+      "source": "smb",
+      "date": "2026-01-04",
+      "url": "https://bulletins.discovermass.com/download.php?bulletin=5JRzCCQNTPtl2JGw6n9DsR7ncQdp0gX4ul%2B5CTKZoMtn%2B2HfCg2b1B7FKe6KqosbYIxN3qiEtiq9SsxDTBay%2FFnQ3GvCD2KE3phsk4vwmIo%3D",
+      "local_path": "bulletins\\smb\\2026-01-04.pdf"
+    },
+    {
+      "source": "hspht",
+      "date": "2026-02-22",
+      "url": "https://bulletins.discovermass.com/download.php?bulletin=8EwOcAQhyFq0C6JOuVt9syU8n%2BxluFvNGxzb9YoQ19DqHy0mAIXJYjS02IUkWA1nJqZ5pkvq09GAuyS%2B8sVL1ABKY7mHg5khH6lsQ1to75Y%3D",
+      "local_path": "bulletins\\hspht\\2026-02-22.pdf"
+    },
+    {
+      "source": "hspht",
+      "date": "2026-02-15",
+      "url": "https://bulletins.discovermass.com/download.php?bulletin=8EwOcAQhyFq0C6JOuVt9s6Sc8zwjmxvnevqG%2FMQAM0hnaOJa%2Bsn0yoP4n0yLC5ZfEfoxtXdmFBB13q%2BVnaivmVWi%2BFo0i61Jl%2BPolbY02Nw%3D",
+      "local_path": "bulletins\\hspht\\2026-02-15.pdf"
+    },
+    {
+      "source": "hspht",
+      "date": "2026-02-08",
+      "url": "https://bulletins.discovermass.com/download.php?bulletin=8EwOcAQhyFq0C6JOuVt9s8K3MzdtuUDX%2FsSwKUA0vLb61R6GVAtz8%2FbQq5lq4YSH4OARBYOw1BRlaXBEX5KGwGnzjjmDyfMt0MiK5htsbM0%3D",
+      "local_path": "bulletins\\hspht\\2026-02-08.pdf"
+    },
+    {
+      "source": "hspht",
+      "date": "2026-02-01",
+      "url": "https://bulletins.discovermass.com/download.php?bulletin=8EwOcAQhyFq0C6JOuVt9syPAly%2FUIK4wBWEps8rSbJOCbC4coAVNdmfst4ArPw%2Fy2KVsMbmj7TuXyLy18CW9xk9RTmMfs0k3sFzeQADwI8A%3D",
+      "local_path": "bulletins\\hspht\\2026-02-01.pdf"
+    },
+    {
+      "source": "hspht",
+      "date": "2026-01-25",
+      "url": "https://bulletins.discovermass.com/download.php?bulletin=8EwOcAQhyFq0C6JOuVt9s0IKDROwA8hR5N%2FwPLXgEmyORlfaBVvhh2k9r7ceXyYeFla6klWwEfbZDVwnVBM1OdiWNRRe9CegNU3G3l9HQkY%3D",
+      "local_path": "bulletins\\hspht\\2026-01-25.pdf"
+    },
+    {
+      "source": "hspht",
+      "date": "2026-01-18",
+      "url": "https://bulletins.discovermass.com/download.php?bulletin=8EwOcAQhyFq0C6JOuVt9syMfvkWIZdDsi0pY3oIhlkHkzmfO2z%2FwNdGHrMZJuw0KL1Xcud0vBvUSAKXqqEb8xHe4rv0%2FETbpkTNty7gZOAY%3D",
+      "local_path": "bulletins\\hspht\\2026-01-18.pdf"
+    },
+    {
+      "source": "hspht",
+      "date": "2026-01-11",
+      "url": "https://bulletins.discovermass.com/download.php?bulletin=8EwOcAQhyFq0C6JOuVt9szZq2K8XMhN2DXSce1wbZdqMcFqQ4QGZBfVxORZTRFrVd%2BnIF%2F4%2FJs7%2FHGKhd2ay3AKOx9xqE76wOtrzjWiNIT4%3D",
+      "local_path": "bulletins\\hspht\\2026-01-11.pdf"
+    },
+    {
+      "source": "hspht",
+      "date": "2026-01-04",
+      "url": "https://bulletins.discovermass.com/download.php?bulletin=8EwOcAQhyFq0C6JOuVt9s7upkLtYaDJBuzXP%2BpCS%2BpC%2BvuksivFSW39QiWIPy44QOy6umN31lmGMgFGRC4rSja9RSOOdM3Qija9yt26D7wg%3D",
+      "local_path": "bulletins\\hspht\\2026-01-04.pdf"
+    }
+  ]
+}
