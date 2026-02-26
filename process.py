@@ -16,41 +16,104 @@ import json
 import re
 import subprocess
 import sys
+import tempfile
 import threading
 import time
 from datetime import date
 from pathlib import Path
 
+from pypdf import PdfReader, PdfWriter
+
 STORE_PATH = Path("store.json")
 STAGED_PATH = Path("staged_events.json")
+
+PARISHES = {
+    "epi": {
+        "name": "Epiphany",
+        "churches": {
+            "epi": {"name": "Epiphany"}
+        }
+    },
+    "hspht": {
+        "name": "Historic St Pats / Holy Trinity",
+        "churches": {
+            "hsp":{"name": "Historic St Patrick's"},
+            "ht":{"name": "Holy Trinity"}
+        }
+    },
+    "mhe":{
+        "name": "Most Holy Eucharist",
+        "churches": {
+            "spm":{"name": "St Patrick's of Merna"},
+            "smd":{"name": "St Mary's of Downs"}
+        }
+    },
+    "smb": {
+        "name": "St Mary's of Bloomington",
+        "churches": {
+            "smb":{"name": "St Mary's of Bloomington"}
+        }
+    }
+}
 
 # ---------------------------------------------------------------------------
 # Prompt
 # ---------------------------------------------------------------------------
 
+
+# Pages to extract before sending to Claude (0-indexed).
+# Pages 2-3 of the bulletin (indices 1-2) always contain mass/confession/adoration schedules.
+BULLETIN_PAGES = [1, 2]
+bulletin_pages_1 = ','.join([str(x+1) for x in BULLETIN_PAGES])
+
 PROMPT_TEMPLATE = """\
-Read the parish bulletin PDF at: {pdf_path}
+You have access to the Read tool only. Do not request any other tools.
+Read the excerpt of the parish bulletin PDF at: {pdf_path}
+You have been given pages: {bulletin_pages_1}
 Bulletin date: {bulletin_date}
+It is for the {parish} Parish which has churches {churches}.
 
 Output a JSON array of events. Each object:
-  "type": "mass" | "adoration" | "confession" | "misc"
-  "location": string
+  "type": "mass" | "adoration" | "confession"
+  "location": church code — one of:
+{churches}
+    - Other: "unk"
   "datetime": "YYYY-MM-DDTHH:MM:00"
-  "time_desc": time as written in bulletin
-  "page": integer
+  "time_desc": description of time; can be a span if provided, or even akin to "3pm until mass"
+  "page": integer page where this information was found (if you found it on snippet page 0 and you were given pages 2,3, report 2)
 
 Optional fields (include only when applicable):
-  "details": brief description — misc events only
-  "cancelled": true — only if bulletin explicitly states the event is cancelled
+  "cancelled": true - only if bulletin explicitly states the event is cancelled
+  "concern": string - any concerns you have because a listing doesn't fit into this data structure neatly
 
 Rules:
-- For recurring schedules (masses, confession, adoration): output only the next upcoming occurrence of each from the bulletin date. One object per distinct time slot.
-- For misc event series (weekly group, monthly gathering, etc.): output only the next upcoming occurrence. Note the series in details.
-- Silence is not cancellation — omit events not mentioned.
-- "reconciliation" = type "confession".
+- Sometimes a bulletin lists mass times under the heading "Mass Intentions"
+- Daily masses (MTWRF and Sat before 4PM) are 30 minutes long when calculating times after mass
+- Output only the next upcoming occurrence of each recurring schedule from the bulletin date. One object per distinct time slot.
+- Silence is not cancellation; omit events not mentioned.
+- "reconciliation" is "confession".
 
 Output ONLY the JSON array, nothing else.\
 """
+
+# ---------------------------------------------------------------------------
+# Parish helpers
+# ---------------------------------------------------------------------------
+
+def format_churches(source: str) -> str:
+    """
+    Build the indented church list for the prompt, e.g.:
+        - Historic St Patrick's: "hsp"
+        - Holy Trinity: "ht"
+    Falls back to a generic entry if the source isn't in PARISHES.
+    """
+    parish = PARISHES.get(source)
+    if not parish:
+        return '    - (unknown parish)'
+    return "\n".join(
+        f'    - {info["name"]}: "{code}"'
+        for code, info in parish["churches"].items()
+    )
 
 # ---------------------------------------------------------------------------
 # Store helper
@@ -106,6 +169,7 @@ def run_claude(prompt: str, pdf_path: Path) -> str:
             raise RuntimeError("Claude CLI timed out after 600s")
 
     process.wait()
+    print(f"  Claude finished in {time.time() - start:.1f}s")
 
     if process.returncode != 0:
         raise RuntimeError(f"Claude CLI exited with code {process.returncode}")
@@ -142,6 +206,24 @@ def extract_json_array(text: str) -> list:
 # Per-bulletin processing
 # ---------------------------------------------------------------------------
 
+
+
+def trim_pdf(pdf_path: Path, pages: list[int]) -> Path:
+    """
+    Write a temporary PDF containing only the requested pages (0-indexed).
+    Caller is responsible for deleting the file when done.
+    """
+    reader = PdfReader(pdf_path)
+    writer = PdfWriter()
+    for i in pages:
+        if i < len(reader.pages):
+            writer.add_page(reader.pages[i])
+    fd, tmp = tempfile.mkstemp(suffix=".pdf", dir=pdf_path.parent)
+    with open(fd, "wb") as f:
+        writer.write(f)
+    return Path(tmp)
+
+
 def summary_path_for(local_path: str) -> Path:
     return Path(local_path).with_suffix(".json")
 
@@ -158,11 +240,19 @@ def process_bulletin(bulletin: dict) -> list:
         print(f"  Summary exists, loading")
         raw_items = json.loads(summary.read_text(encoding="utf-8"))
     else:
-        prompt = PROMPT_TEMPLATE.format(
-            pdf_path=pdf_path,
-            bulletin_date=bulletin["date"],
-        )
-        raw_text = run_claude(prompt, pdf_path)
+        tmp_pdf = trim_pdf(pdf_path, BULLETIN_PAGES)
+        try:
+            source = bulletin["source"]
+            prompt = PROMPT_TEMPLATE.format(
+                pdf_path=tmp_pdf,
+                bulletin_date=bulletin["date"],
+                bulletin_pages_1=bulletin_pages_1,
+                parish=PARISHES.get(source, {}).get("name", source),
+                churches=format_churches(source),
+            )
+            raw_text = run_claude(prompt, tmp_pdf)
+        finally:
+            tmp_pdf.unlink(missing_ok=True)
         raw_items = extract_json_array(raw_text)
         summary.write_text(json.dumps(raw_items, indent=2), encoding="utf-8")
         print(f"  Saved → {summary.name}")

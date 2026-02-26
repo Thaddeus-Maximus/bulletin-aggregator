@@ -12,12 +12,12 @@
 # Churches
 
 ### Core
-- <span style="color:#0f902f">HSP</span>
-- <span style="color:#1e90ff">HT</span>
+- <span style="color:#63593c">HSP</span>
+- <span style="color:#40a1ff">HT</span>
 - <span style="color:#f8c325">EPI</span>
-- <span style="color:#255cf8">SMB</span>
-- <span style="color:#60ffc2">MERNA</span>
-- <span style="color:#ff8082">SMD</span>
+- <span style="color:#0635b9">SMB</span>
+- <span style="color:#00bf2f">MERNA</span>
+- <span style="color:#bf0003">SMD</span>
 
 ### Fringes
 - <span style="color:#8fff1e">SPW</span>
